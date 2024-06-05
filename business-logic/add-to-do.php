@@ -1,8 +1,8 @@
 <?php
 
-function addToDo(string $list): void
+function addToDo(string $task): void
 {
     global $toDo;
 
-    $toDo[] = $list;
+    $toDo[] = $task;
 }
