@@ -5,8 +5,8 @@ function showToDo(): void
     global $toDo;
 
     if ($toDo) {
-        foreach ($toDo as $number => $toDo) {
-            echo $number + 1 . ". $toDo\n";
+        foreach ($toDo as $number => $task) {
+            echo $number + 1 . ". $task\n";
         }
     } else {
         echo "- empty -\n";
