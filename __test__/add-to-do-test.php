@@ -7,5 +7,4 @@ require_once __DIR__ . "/../business-logic/add-to-do.php";
 addToDo("a");
 addToDo("b");
 addToDo("c");
-
 showToDo();
