@@ -10,7 +10,6 @@ addToDo("b");
 addToDo("c");
 addToDo("d");
 addToDo("e");
-
 showToDo();
 
 echo "==================================================\n";
