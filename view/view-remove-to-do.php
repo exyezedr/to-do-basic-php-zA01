@@ -13,7 +13,6 @@ function viewRemoveToDo(): void
         echo "- cancel remove -\n\n";
     } else if ((int)$choice || $choice === "0") {
         $success = removeToDo($choice);
-
         echo "- " . ($success ? "successfully" : "failed") . " remove to do number $choice -\n\n";
     } else {
         echo "- option not understood -\n\n";
