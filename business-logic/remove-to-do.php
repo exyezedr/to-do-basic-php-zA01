@@ -9,6 +9,5 @@ function removeToDo(int $number): bool
     }
 
     array_splice($toDo, $number - 1, 1);
-
     return true;
 }
